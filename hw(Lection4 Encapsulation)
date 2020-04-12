@@ -16,12 +16,12 @@ public class Main{
   private double p1;
   private double p2;
   public void SetPoint1(){ 
-    Scanner myObj = new Scanner(System. in);
-    this. p1 = myObj. nextDouble();
+    Scanner form = new Scanner(System. in);
+    this. p1 = form. nextDouble();
   }
   public void SetPoint2(){
-    Scanner myObj = new Scanner(System.in);
-    this. p2 = myObj. nextDouble();
+    Scanner form = new Scanner(System.in);
+    this. p2 = form. nextDouble();
   }
   public double getPoint1(){
           return this.p1;
